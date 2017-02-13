@@ -3,7 +3,7 @@
 Use the [OpenWeather API](http://openweathermap.org/current) to fetch the weather from a certain zip code, and update the page to reflect the current weather. [Documentation](http://openweathermap.org/current)
 
 ### Requirements
-- Ask the user to input the zip they would like to see the weather for.
+- Ask the user to input the zip they would like to see the weather for. (Hint: use Prompt)
 
 - Use ajax to send a request the OpenWeather API.
 NOTE: Because the OpenWeather API is not an open API, every request must end with '&appid=052f26926ae9784c2d677ca7bc5dec98' (i.e. http://api.openweathermap.org/data/2.5/weather?zip=60614,us&appid=052f26926ae9784c2d677ca7bc5dec98)
