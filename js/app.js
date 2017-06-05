@@ -1,5 +1,13 @@
 var zipCode = prompt("What is your zipcode");
 
+if (result.weather[0].description = "clear sky")
+	$('body').attr('background-image', 'url(../images/)')
+if (result.weather[0].description = "")
+	$('body').attr('background-image', 'url(../images/)')
+if (result.weather[0].description = "")
+	$('body').attr('background-image', 'url(../images/)')
+
+
 $.ajax({
 	method: "GET",
 	url: "http://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + ",us&appid=052f26926ae9784c2d677ca7bc5dec98&units=imperial",
