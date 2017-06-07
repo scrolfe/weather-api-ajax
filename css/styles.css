@@ -1,7 +1,11 @@
 body {
     background-image: url(../images/klepacki_clouds.jpg);
+    color: white;
 }
 p {
     font-size: 8px;
     color: white;
+}
+div {
+    text-align: center;
 }
